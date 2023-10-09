@@ -3,9 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-def test_open_tag():
+def test_open_tag():  #always !!!test!! in the title of file and function or class for pytest
     driver = webdriver.Chrome()
-
     try:
         driver.get("https://google.com")
         time.sleep(5)
