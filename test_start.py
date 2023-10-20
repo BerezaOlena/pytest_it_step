@@ -14,3 +14,8 @@ def test_open_tag():  #always !!!test!! in the title of file and function or cla
     finally:
         time.sleep(10)
         driver.quit()
+
+#назвати test!!! pytest
+#pytest -s -v test_start.py
+
+
